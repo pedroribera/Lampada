@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada DNC</title>
+    <link href="assets/index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="assets/img/DNC logo branco 2.png" width="120px"></div>
+        <div id="title">
+            <h1>Lâmpada</h1>
+        </div>
+    </header>
+    <section>
+        <div id="light">
+            <img id="luz" src="assets/img/Off.svg" width="250" onclick="broke()">
+        </div>
+        <div id="butt">
+            <input class="button" id="buttonOn" type="button" value="Ligar" onclick="ligar()">
+            <input class="button" id="buttonOff" type="button" value="Desligar" onclick="desligar()">
+        </div>  
+    </section>
+    <script src="assets/script.js"></script>
+</body>
+</html>
